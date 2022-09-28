@@ -1,0 +1,26 @@
+{
+  "name": "hare",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx lite-server",
+    "ts": "npx tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "typescript": "^4.8.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suli2022/hare.git"
+  },
+  "bugs": {
+    "url": "https://github.com/suli2022/hare/issues"
+  },
+  "homepage": "https://github.com/suli2022/hare#readme",
+  "description": ""
+}
