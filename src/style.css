@@ -1,0 +1,25 @@
+.container {
+    text-align: center;
+    margin: 2% 5%;
+    background-color: rgb(105, 126, 105);
+    padding: 35px;
+    margin: 15px;
+    border-radius: 5px;
+}
+label {
+    width: 100px;
+    display: inline-block;
+}
+
+footer {
+    background-color: rgb(183, 190, 149);
+    padding: 3px;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 25px;
+}
+#eredmeny {
+    text-align: center;
+    margin: 35px;
+    font-size: 60px;
+}
