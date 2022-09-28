@@ -1,5 +1,5 @@
 /*
-Sallai András
+Sangare Fantha Felisha
 Szoft II N
 2022-09-21
 */
@@ -14,6 +14,8 @@ calcButton.addEventListener('click', () => {
     let heightNum : number = Number(height.value);
     let area = calcArea(baseNum, heightNum);
     eredmeny.textContent = String(area); 
+    base.value = "";
+    height.value = "";
     //alert(area);
 });
 

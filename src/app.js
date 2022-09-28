@@ -12,6 +12,8 @@ calcButton.addEventListener('click', () => {
     let heightNum = Number(height.value);
     let area = calcArea(baseNum, heightNum);
     eredmeny.textContent = String(area);
+    base.value = "";
+    height.value = "";
     //alert(area);
 });
 function calcArea(base, height) {
